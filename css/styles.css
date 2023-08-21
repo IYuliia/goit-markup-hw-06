@@ -211,11 +211,21 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg/hero-bg.jpg);
+    url("../images/hero-bg/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 1440px;
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero-bg/hero-bg@2x.jpg");
+  }
 }
 
 .hero-heading {
