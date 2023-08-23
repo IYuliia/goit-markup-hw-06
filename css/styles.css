@@ -850,6 +850,7 @@ FILTER */
   column-gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
