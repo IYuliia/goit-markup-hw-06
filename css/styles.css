@@ -269,6 +269,7 @@ img {
     padding: 0;
     padding-top: 24px;
     padding-bottom: 24px;
+    overflow: hidden;
   }
   .burger-menu-icon {
     stroke: var(--navyblue-background-color);
@@ -1284,6 +1285,7 @@ FILTER */
   transform: translateY(-50%);
   fill: var(--navyblue-background-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
 }
 
 .modal-input:focus + .modal-input-icon {
